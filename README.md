@@ -16,10 +16,10 @@ Create a Lambda function to interact with the SageMaker endpoint.
 Use API Gateway to expose the Lambda function as a RESTful API.
 
 Technologies Used:
-AWS SageMaker- Model training and deployment.
-AWS Lambda- Backend function for inference.
-AWS API Gateway- API creation and management.
-Python- For data preprocessing, training, and Lambda function.
+AWS SageMaker - Model training and deployment.
+AWS Lambda - Backend function for inference.
+AWS API Gateway - API creation and management.
+Python - For data preprocessing, training, and Lambda function.
 
 How to Use:
 Clone this repository.
