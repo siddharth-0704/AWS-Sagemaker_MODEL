@@ -13,11 +13,13 @@ Preprocess the Iris dataset and train the model on SageMaker.
 Deploy the trained model as an endpoint on SageMaker.
 Create a Lambda function to interact with the SageMaker endpoint.
 Use API Gateway to expose the Lambda function as a RESTful API.
+
 Technologies Used:
 AWS SageMaker: Model training and deployment.
 AWS Lambda: Backend function for inference.
 AWS API Gateway: API creation and management.
 Python: For data preprocessing, training, and Lambda function.
+
 How to Use:
 Clone this repository.
 Follow the setup instructions to configure AWS services.
@@ -29,5 +31,6 @@ Use the API endpoint to submit requests in the format:
     "petal_width": 0.2
 }
 Receive predictions for the iris species: Setosa, Versicolor, or Virginica.
+
 Results:
 The project achieves high accuracy using a simple, interpretable machine learning model. It highlights the power of AWS's serverless architecture to deploy and manage ML applications.
